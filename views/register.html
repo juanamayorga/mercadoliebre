@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel='stylesheet' href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<form action="/" mathod="POST" class="register-form">
+  <div class="elementoform">
+    <input type="text" name="nombreYApellido" placeholder="Nombre y apellido" class="inputform">
+  </div>
+  <div class="elementoform">
+    <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="inputform">
+  </div>
+  <div class="elementoform">
+    <input type="text" name="email" placeholder="Email" class="inputform">
+  </div>
+  <div class="elementoform">
+    <label>Fecha de nacimiento</label>
+    <input type="date" name="fechaNacimiento" class="inputform">
+  </div>
+  <div class="elementoform">
+    <input type="text" name="domicilio" placeholder="Domicilio" class="inputform">
+  </div>
+  <div class="elementoform">
+    <label>Perfil del usuario</label>
+    <div class="perfilusuario"><input type="radio" name="perfilUsario" value="Comprador" class="radio">Comprador</div>
+    <div class="perfilusuario"><input type="radio" name="perfilUsario" value="Vendedor" class="radio">Vendedor</div>
+  </div>
+  <div class="elementoform">
+    <label>Intereses</label>
+    <div class="interes"><input type="checkbox" name="interes" value="electro" class="checkbox">Electro</div>
+    <div class="interes"><input type="checkbox" name="interes" value="moda" class="checkbox">Moda</div>
+    <div class="interes"><input type="checkbox" name="interes" value="hogar" class="checkbox">Hogar</div>
+    <div class="interes"><input type="checkbox" name="interes" value="jugueteria" class="checkbox">Jugueteria</div>
+    <div class="interes"><input type="checkbox" name="interes" value="vidaSana" class="checkbox">Vida sana</div>
+  </div>
+  <div class="elementoform">
+    <label>Foto de usuario</label>
+    <input type="file" name="fotoUsuario" accept=".jpg">
+  </div>
+  <div class="elementoform">
+    <input type="password" name="contraseña" placeholder="Contraseña" class="inputform">
+  </div>
+  <div class="elementoform">
+    <input type="password" name="confimarContraseña" placeholder="Confirmar contraseña" class="inputform">
+  </div>
+  <div class="elementoform">
+  <button type="submit" href="/">Enviar</button>
+  <button type="reset">Borrar</button>
+  </div>
+</form>
