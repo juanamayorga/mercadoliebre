@@ -12,6 +12,8 @@ app.use('/productos', rutasProductos)
 
 app.use('/,', rutasMain);
 
+app.set('view engine', 'ejs')
+
 app.listen (port, () => console.log (`Servidor corriendo en puerto ${port}`));
 
 app.get('/', (req, res) => {
