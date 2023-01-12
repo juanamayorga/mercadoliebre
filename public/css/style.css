@@ -59,7 +59,7 @@ header {
 }
 
 .banner {
-    width: 100%;
+    width: 100vw;
 }
 
 main {
@@ -169,9 +169,17 @@ footer h4, footer p {
 
 /* REGISTER */
 
+body form {
+    background-color: #EAC926;
+}
+
 form {
     background-color: #ebebeb;
     font-size: 20px;
+    margin: 50px;
+    border: solid 1px #EAC926;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
 
 .register-form, .login-form {
